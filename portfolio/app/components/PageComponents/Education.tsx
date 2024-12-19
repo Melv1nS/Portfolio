@@ -64,7 +64,7 @@ const Education = ({ className }: EducationProps) => {
                   </h3>
                 </div>
                 
-                <p className="text-burnt-orange font-medium mt-1">
+                <p className="font-medium mt-1" style={{ color: edu.brandColor }}>
                   {edu.degree}
                 </p>
                 {edu.major && (
