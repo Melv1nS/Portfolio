@@ -5,6 +5,7 @@ import Contact from './components/PageComponents/Contact'
 import Skills from './components/PageComponents/Skills'
 import Education from './components/PageComponents/Education'
 import Experience from './components/PageComponents/Experience'
+import PortfolioStack from './components/PageComponents/PortfolioStack'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Home() {
@@ -70,8 +71,11 @@ export default function Home() {
       <Skills 
         className="bg-gray-50"
       />
-      <Contact 
+      <PortfolioStack 
         className="bg-white"
+      />
+      <Contact 
+        className="bg-gray-50"
       />
     </>
   )

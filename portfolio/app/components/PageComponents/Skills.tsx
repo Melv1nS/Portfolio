@@ -33,8 +33,7 @@ const skillCategories: SkillCategory[] = [
       { name: 'Python', level: 95, description: "API development, automation, and data processing" },
       { name: 'Node.js', level: 80, description: "Server-side JavaScript and API development" },
       { name: 'API Design', level: 90, description: "RESTful API architecture and implementation" },
-      { name: 'SQL', level: 85, description: "Database design and query optimization" },
-      { name: 'Supabase', level: 85, description: "Backend as a Service, real-time subscriptions, and authentication" },
+      { name: 'PostgresSQL', level: 85, description: "Database design and query optimization" },
       { name: 'Unit Testing', level: 85, description: "Test-driven development, Jest, Pytest, and test coverage optimization" },
     ]
   },
