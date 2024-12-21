@@ -1,7 +1,7 @@
 import './globals.css'
 import { Montserrat, Lato } from 'next/font/google'
-import Navbar from './components/PageComponents/Navbar'
-import Footer from './components/PageComponents/Footer'
+import Navbar from './components/page-components/Navbar'
+import Footer from './components/page-components/Footer'
 import FontAwesomeScript from './components/FontAwesomeScript'
 
 const montserrat = Montserrat({

@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import Portfolio from './components/PageComponents/Portfolio'
-import About from './components/PageComponents/About'
-import Contact from './components/PageComponents/Contact'
-import Skills from './components/PageComponents/Skills'
-import Education from './components/PageComponents/Education'
-import Experience from './components/PageComponents/Experience'
-import PortfolioStack from './components/PageComponents/PortfolioStack'
+import Portfolio from './components/page-components/Portfolio'
+import About from './components/page-components/About'
+import Contact from './components/page-components/Contact'
+import Skills from './components/page-components/Skills'
+import Education from './components/page-components/Education'
+import Experience from './components/page-components/Experience'
+import PortfolioStack from './components/page-components/PortfolioStack'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="text-5xl font-bold font-montserrat mb-4">
             Melvin Sureshbabu
           </h1>
-          
+
           <div className="flex items-center justify-center space-x-4 mb-6">
             <div className="w-20 h-0.5 bg-accent"></div>
             <div className="text-accent">
@@ -33,48 +33,48 @@ export default function Home() {
             </div>
             <div className="w-20 h-0.5 bg-accent"></div>
           </div>
-          
+
           <p className="text-xl font-lato text-gray-100 mb-8">
             Software Engineer
           </p>
-          
+
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="https://github.com/Melv1nS" 
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-white hover:text-accent transition-colors duration-300">
+            <a href="https://github.com/Melv1nS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-accent transition-colors duration-300">
               <FaGithub size={28} />
             </a>
             <a href="https://www.linkedin.com/in/melvin-sureshbabu/"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-white hover:text-accent transition-colors duration-300">
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-accent transition-colors duration-300">
               <FaLinkedin size={28} />
             </a>
           </div>
         </div>
       </header>
-      
-      <About 
+
+      <About
         className="bg-gray-50"
       />
-      <Portfolio 
-        title="Featured Projects" 
+      <Portfolio
+        title="Featured Projects"
         className="bg-white"
       />
-      <Experience 
+      <Experience
         className="bg-gray-50"
       />
-      <Education 
+      <Education
         className="bg-white"
       />
-      <Skills 
+      <Skills
         className="bg-gray-50"
       />
-      <PortfolioStack 
+      <PortfolioStack
         className="bg-white"
       />
-      <Contact 
+      <Contact
         className="bg-gray-50"
       />
     </>

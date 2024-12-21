@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaGithub, FaCode, FaServer, FaTools, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaCode, FaServer } from 'react-icons/fa';
 import { SiVercel, SiNextdotjs, SiTypescript, SiTailwindcss, SiResend } from 'react-icons/si';
 
 interface TechStack {

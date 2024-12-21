@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaGraduationCap, FaPlane, FaUniversity, FaSchool } from 'react-icons/fa';
+import { FaGraduationCap, FaUniversity, FaSchool } from 'react-icons/fa';
 
 interface EducationProps {
   className?: string;
