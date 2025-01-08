@@ -33,5 +33,14 @@ export const projects: Project[] = [
         ],
         link: "https://cost-of-ai.vercel.app/",
         github: "https://github.com/Melv1nS/CostOfAI",
+    },
+    {
+        id: "domain-valid",
+        title: "Domain Valid",
+        description: "A tool that uses Claude 3.5 to generate a list of domain names based on a project description and then checks if they are available.",
+        imageUrl: "/assets/img/portfolio/domain-valid.png",
+        technologies: ["Claude 3.5", "Rapid API", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        link: "https://domainvalid.vercel.app/",
+        github: "https://github.com/Melv1nS/domainvalid",
     }
 ];
