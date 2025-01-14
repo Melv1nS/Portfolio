@@ -4,7 +4,7 @@ export const projects: Project[] = [
     {
         id: "turbowrapped",
         title: "TurboWrapped",
-        description: "A dynamic Spotify analytics platform that provides real-time insights into users' listening habits, offering a more comprehensive alternative to Spotify's annual wrapped feature.",
+        description: "A dynamic Spotify analytics platform that provides real-time insights into users' listening habits, offering a more comprehensive alternative to Spotify's annual wrapped feature. I'm waiting on approval from Spotify to release TurboWrapped to production. If you want to play around with the tool send me an email and I'll add you to the testing group!",
         imageUrl: "/assets/img/portfolio/turbowrapped.png",
         technologies: [
             "Next.js",
