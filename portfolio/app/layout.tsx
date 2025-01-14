@@ -1,6 +1,7 @@
 import './globals.css'
 import { Montserrat, Lato } from 'next/font/google'
-import Navbar from './components/page-components/Navbar'
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from './components/page-components/Footer'
 import FontAwesomeScript from './components/FontAwesomeScript'
 
@@ -34,6 +35,8 @@ export default function RootLayout({
       </head>
       <body>
         <main>{children}</main>
+        <Analytics />
+        <SpeedInsights />
         <Footer />
         <FontAwesomeScript />
       </body>
